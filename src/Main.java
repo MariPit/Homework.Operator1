@@ -53,5 +53,18 @@ public class Main {
         else {
             System.out.println("Можно кататься без сопровождения взрослого");
         }
+
+        System.out.println("Задание 3");
+        int one = 206;
+        int two = 428;
+        int free = 1115;
+        if (one > two && one > free) {
+            System.out.println("Большее число " + one);
+        }
+        else if (two > one && two > free) {
+            System.out.println("Большее число " + two);
+        } else {
+            System.out.println("Большее число " + free);
+        }
     }
 }
